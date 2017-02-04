@@ -40,3 +40,15 @@ changelogger will strip everything away except for what's important for creating
 - README: Documentation update about RakeTask params and how to translate labels
 - Travis: Use ruby 2.3.3 and 2.2.6
 ```
+
+## Usage
+
+```
+changelogger [OPTIONS] FILE TAG
+```
+
+### Example
+
+```
+changelogger CHANGELOG.md v1.0.0
+```
