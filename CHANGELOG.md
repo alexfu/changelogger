@@ -1,5 +1,21 @@
 # Change Log
 
+## [v0.1.0](https://github.com/alexfu/changelogger/tree/v0.1.0) (2017-02-06)
+[Full Changelog](https://github.com/alexfu/changelogger/compare/v0.0.1...v0.1.0)
+
+**Implemented enhancements:**
+
+- Add version option [\#3](https://github.com/alexfu/changelogger/issues/3)
+
+**Fixed bugs:**
+
+- Create output file parent directory [\#1](https://github.com/alexfu/changelogger/issues/1)
+
+**Merged pull requests:**
+
+- Add version option [\#4](https://github.com/alexfu/changelogger/pull/4) ([alexfu](https://github.com/alexfu))
+- Create output file parent directory [\#2](https://github.com/alexfu/changelogger/pull/2) ([alexfu](https://github.com/alexfu))
+
 ## [v0.0.1](https://github.com/alexfu/changelogger/tree/v0.0.1) (2017-02-04)
 
 
