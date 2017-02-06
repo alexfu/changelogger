@@ -6,6 +6,7 @@ import os
 @click.argument('file', type=click.Path(exists=True))
 @click.argument('tag')
 @click.option('--output', type=click.Path(dir_okay=False), help='Output file')
+@click.version_option(message='%(prog)s version %(version)s')
 def cli(file, tag, output):
     inputFile = click.open_file(file, 'r')
     fileContent = readFileContents(inputFile)
