@@ -58,5 +58,5 @@ changelogger CHANGELOG.md v1.0.0
 Installation is done through [Easy Install](http://setuptools.readthedocs.io/en/latest/easy_install.html#id8).
 
 ```
-easy_install https://github.com/alexfu/changelogger/archive/v0.0.1.tar.gz
+easy_install https://github.com/alexfu/changelogger/archive/v0.1.0.tar.gz
 ```
