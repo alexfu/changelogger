@@ -1,5 +1,6 @@
 import click
 import re
+import os
 
 @click.command()
 @click.argument('file', type=click.Path(exists=True))
@@ -11,6 +12,12 @@ def cli(file, tag, output):
     changes = processChangelog(fileContent.splitlines(), tag)
     changes_string = '\n'.join(changes)
     if output:
+        outputDir = os.path.dirname(output)
+
+        # Create parent directory if it doesn't exist.
+        if not os.path.exists(outputDir):
+            os.makedirs(outputDir)
+
         outputFile = click.open_file(output, 'w')
         outputFile.write(changes_string)
     else:
